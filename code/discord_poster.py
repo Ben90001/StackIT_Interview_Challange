@@ -5,6 +5,7 @@ class DiscordPoster:
         self.webhook_url = webhook_url
 
     def post_message(self, message: str):
-        data = {"content": message}
+        data = {"username" : "Siren", 
+                "content": message}
         response = requests.post(self.webhook_url, json=data)
         response.raise_for_status()
