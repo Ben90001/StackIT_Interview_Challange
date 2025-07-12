@@ -1,0 +1,88 @@
+[
+    {
+      "Type": "Warning",
+      "Name": "Backup Failure",
+      "Description": "The backup failed due to a database problem"
+    },
+    {
+      "Type": "Info",
+      "Name": "Quota Exceeded",
+      "Description": "Compute Quota exceeded"
+    },
+    {
+      "Type": "Warning",
+      "Name": "Disk Space Low",
+      "Description": "Only 5% disk space remaining on server-01"
+    },
+    {
+      "Type": "Info",
+      "Name": "Deployment Complete",
+      "Description": "App deployed successfully",
+      "Environment": "Production"
+    },
+    {
+      "Type": "Warning",
+      "Name": "Service Crash",
+      "Description": "Auth service crashed unexpectedly",
+      "Service": "auth-api"
+    },
+    {
+      "Type": "Info",
+      "Name": "Login Success",
+      "Description": "User admin logged in successfully"
+    },
+    {
+      "Type": "Warning",
+      "Name": "High Memory Usage",
+      "Description": "Memory usage exceeded 90% on server-02",
+      "Server": "server-02"
+    },
+    {
+      "Type": "Info",
+      "Name": "Job Completed",
+      "Description": "Daily report job completed"
+    },
+    {
+      "Type": "Warning",
+      "Name": "Unauthorized Access",
+      "Description": "Multiple failed login attempts detected",
+      "Attempts": 5,
+      "IP": "192.168.1.45"
+    },
+    {
+      "Type": "Info",
+      "Name": "Update Available",
+      "Description": "New security patch available"
+    },
+    {
+      "Type": "Warning",
+      "Name": "API Latency Spike",
+      "Description": "Response times exceeded 1000ms",
+      "API": "payments"
+    },
+    {
+      "Type": "Info",
+      "Name": "Cache Cleared",
+      "Description": "Redis cache cleared by system"
+    },
+    {
+      "Type": "Warning",
+      "Name": "Certificate Expiring",
+      "Description": "TLS certificate expires in 3 days",
+      "Domain": "example.com"
+    },
+    {
+      "Type": "Info",
+      "Name": "System Boot",
+      "Description": "Server restarted",
+      "Uptime": "0h"
+    },
+    {
+      "Type": "Warning",
+      "Name": "Database Lock",
+      "Description": "PostgreSQL lock detected on users table",
+      "Table": "users",
+      "Duration": "12s"
+    }
+  ]
+  
