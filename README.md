@@ -1,4 +1,4 @@
-# StackIT_Interview_Challange
+# StackIT Interview: Siren Warning System
 Creating a RESTful web service to forward warnings of from POST inputs to Discord.
 
 ## Dependencies
