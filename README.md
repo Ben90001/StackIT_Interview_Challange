@@ -4,4 +4,4 @@ Creating a RESTful web service to forward warnings of from POST inputs to Discor
 
 ## Discord Webhook
 Create a file `./data/discord_webhook.txt` and save your discord webhook inside.
-The service will use this hook to send warnings.
+The service will use this hook to send warnings to the respective channel.
