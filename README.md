@@ -22,3 +22,14 @@ To test the service:
 cd ./testing
 python3 test_requests.py
 ````
+## Docker
+If you wish to containerize the service using Docker first install Docker:
+````
+curl -sSL https://get.docker.com | sh
+````
+Afterwards run you can simply run the set up script.
+To do so first change permissions as follows:
+````
+chmod 700 build_siren_container.sh
+./build_siren_container.sh
+````
