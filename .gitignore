@@ -1,2 +1,4 @@
 # Ignore Discord webhook file
 /data/discord_webhook.txt
+
+/code/__pycache__/
